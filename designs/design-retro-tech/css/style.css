@@ -364,6 +364,13 @@ body {
     transform: translateY(0);
 }
 
+.gallery__item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
 /* Contact Panel */
 .contact-panel {
     position: fixed;
