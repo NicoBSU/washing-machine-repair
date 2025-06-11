@@ -318,6 +318,19 @@ body {
     border-radius: 8px;
 }
 
+.gallery__note {
+    text-align: center;
+    margin-top: 2rem;
+    color: var(--color-text);
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: var(--font-secondary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-top: 2px solid var(--color-accent);
+    padding-top: 1rem;
+}
+
 /* FAQ Section */
 .faq {
     padding: 80px 0;

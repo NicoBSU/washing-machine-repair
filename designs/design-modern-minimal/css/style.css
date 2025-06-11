@@ -206,6 +206,22 @@ body {
     border-radius: 8px;
 }
 
+.gallery__note {
+    text-align: center;
+    margin-top: 2rem;
+    color: var(--text-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.gallery__brand {
+    text-align: center;
+    margin-top: 0.5rem;
+    color: var(--text-color);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
 /* Contact Modal */
 .contact-modal {
     display: none;
