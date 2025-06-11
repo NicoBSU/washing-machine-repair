@@ -142,7 +142,8 @@ body {
 
 /* Gallery Section */
 .gallery {
-    padding: 60px 0;
+    padding: 80px 0;
+    background-color: var(--color-background);
 }
 
 .gallery h2 {
@@ -153,15 +154,49 @@ body {
 
 .gallery__grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
 }
 
-.gallery__placeholder {
-    text-align: center;
-    padding: 2rem;
-    background: var(--light-gray);
+.gallery__item {
+    position: relative;
     border-radius: 8px;
+    overflow: hidden;
+    aspect-ratio: 4/3;
+    background-color: var(--color-card);
+}
+
+.gallery__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.gallery__overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    padding: 20px;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+
+.gallery__caption {
+    color: var(--color-text);
+    font-size: 16px;
+    margin: 0;
+}
+
+.gallery__item:hover .gallery__image {
+    transform: scale(1.05);
+}
+
+.gallery__item:hover .gallery__overlay {
+    transform: translateY(0);
 }
 
 /* FAQ Section */
