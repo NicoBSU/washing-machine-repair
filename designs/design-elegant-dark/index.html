@@ -7,53 +7,60 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
+    <nav class="navbar">
         <div class="container">
-            <div class="header__content">
-                <div class="logo">
-                    <!-- Здесь будет логотип -->
+            <div class="navbar__content">
+                <div class="navbar__logo">
                     <h1>Ремонт стиральных машин</h1>
                 </div>
-                <div class="header__contacts">
-                    <a href="tel:+375297219572" class="phone">+375 (29) 721-95-72</a>
+                <div class="navbar__contact">
+                    <a href="tel:+375297219572" class="navbar__phone">
+                        <span class="navbar__phone-icon">📞</span>
+                        +375 (29) 721-95-72
+                    </a>
                 </div>
             </div>
         </div>
-    </header>
+    </nav>
 
     <main>
         <section class="hero">
+            <div class="hero__overlay"></div>
             <div class="container">
-                <h2 class="hero__title">Ремонт стиральных машин в городе Барановичи и барановичском районе</h2>
-                <p class="hero__subtitle">Быстро, качественно, с гарантией</p>
-                <button class="btn btn--primary contact-btn">Связаться с мастером</button>
+                <div class="hero__content">
+                    <h2 class="hero__title">Ремонт стиральных машин в городе Барановичи и барановичском районе</h2>
+                    <p class="hero__subtitle">Быстро, качественно, с гарантией</p>
+                    <button class="btn btn--gold contact-btn">Связаться с мастером</button>
+                </div>
             </div>
         </section>
 
-        <section class="master-info">
+        <section class="master">
             <div class="container">
-                <div class="master-info__content">
-                    <div class="master-info__header">
+                <div class="master__card">
+                    <div class="master__header">
                         <h2>О мастере</h2>
                     </div>
-                    <div class="master-info__details">
-                        <div class="master-info__name">
+                    <div class="master__content">
+                        <div class="master__name">
                             <h3>Левкович Виктор Владимирович</h3>
                         </div>
-                        <div class="master-info__services">
-                            <h4>Предоставляемые услуги:</h4>
-                            <p>Ремонт, подключение стиральных машин автоматов: ARISTON, BOSCH, LG, SAMSUNG, INDEZIT, АТЛАНТ и другие. Выезд в день вызова, без выходных. Гарантия. В наличии и под заказ запчасти к любым стиральным машинам (новые и б/у)</p>
-                        </div>
-                        <div class="master-info__license">
-                            <h4>Лицензии и сертификаты:</h4>
-                            <p>УНП290110277. Есть лицензия 02467 от 30 07 2001 года. Услуга сертифицирована и есть в реестре бытовых услуг Республики Беларусь</p>
-                        </div>
-                        <div class="master-info__pricing">
-                            <h4>Прайс-лист:</h4>
-                            <p>Оплата за вызов не берется если производится ремонт</p>
+                        <div class="master__info">
+                            <div class="master__section">
+                                <h4>Предоставляемые услуги</h4>
+                                <p>Ремонт, подключение стиральных машин автоматов: ARISTON, BOSCH, LG, SAMSUNG, INDEZIT, АТЛАНТ и другие. Выезд в день вызова, без выходных. Гарантия. В наличии и под заказ запчасти к любым стиральным машинам (новые и б/у)</p>
+                            </div>
+                            <div class="master__section">
+                                <h4>Лицензии и сертификаты</h4>
+                                <p>УНП290110277. Есть лицензия 02467 от 30 07 2001 года. Услуга сертифицирована и есть в реестре бытовых услуг Республики Беларусь</p>
+                            </div>
+                            <div class="master__section">
+                                <h4>Прайс-лист</h4>
+                                <p>Оплата за вызов не берется если производится ремонт</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -62,9 +69,8 @@
 
         <section class="gallery">
             <div class="container">
-                <h2>Галерея работ</h2>
+                <h2 class="section-title">Галерея работ</h2>
                 <div class="gallery__grid">
-                    <!-- Здесь будут фотографии -->
                     <p class="gallery__placeholder">Фотографии будут добавлены позже</p>
                 </div>
             </div>
@@ -72,7 +78,7 @@
 
         <section class="faq">
             <div class="container">
-                <h2>Ответы на частые вопросы</h2>
+                <h2 class="section-title">Ответы на частые вопросы</h2>
                 <div class="faq__content">
                     <!-- Здесь будут вопросы и ответы -->
                 </div>
@@ -104,7 +110,7 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Ремонт стиральных машин в Барановичах</p>
+            <p>Ремонт стиральных машин Барановичи</p>
         </div>
     </footer>
 
