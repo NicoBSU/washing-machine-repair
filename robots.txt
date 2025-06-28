@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Разрешаем индексацию всех страниц
+Allow: /index.html
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Запрещаем индексацию служебных файлов
+Disallow: /.git/
+Disallow: /README.md
+Disallow: /SEO-README.md
+Disallow: /CNAME
+
+# Указываем расположение sitemap
+Sitemap: https://remont-stiralok-baranovichi.by/sitemap.xml
+
+# Время задержки между запросами (в секундах)
+Crawl-delay: 1 
