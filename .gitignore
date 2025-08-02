@@ -1,0 +1,23 @@
+# SEO readme
+SEO-README.md
+
+# README файлы
+README*
+readme*
+
+# YAML файлы с ценами
+prices.yml
+*.yml
+*.yaml
+
+# Дополнительные файлы для игнорирования
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.temp
+node_modules/
+.env
+.env.local
+.env.production
+.env.development 
