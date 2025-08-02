@@ -12,6 +12,7 @@ Disallow: /.git/
 Disallow: /README.md
 Disallow: /SEO-README.md
 Disallow: /CNAME
+Disallow: /prices.yml
 
 # Указываем расположение sitemap
 Sitemap: https://remont-stiralok-baranovichi.by/sitemap.xml
